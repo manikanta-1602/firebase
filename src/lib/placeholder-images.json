@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "recipe_placeholder_1",
+      "description": "A vibrant and healthy salad in a bowl.",
+      "imageUrl": "https://picsum.photos/seed/101/600/400",
+      "imageHint": "salad bowl"
+    },
+    {
+      "id": "recipe_placeholder_2",
+      "description": "A comforting bowl of pasta with tomato sauce.",
+      "imageUrl": "https://picsum.photos/seed/102/600/400",
+      "imageHint": "pasta tomato"
+    },
+    {
+      "id": "recipe_placeholder_3",
+      "description": "A steaming bowl of hearty vegetable soup.",
+      "imageUrl": "https://picsum.photos/seed/103/600/400",
+      "imageHint": "vegetable soup"
+    },
+    {
+      "id": "recipe_placeholder_4",
+      "description": "Freshly baked bread on a wooden board.",
+      "imageUrl": "https://picsum.photos/seed/104/600/400",
+      "imageHint": "baked bread"
+    },
+    {
+      "id": "recipe_placeholder_5",
+      "description": "A sizzling stir-fry in a wok.",
+      "imageUrl": "https://picsum.photos/seed/105/600/400",
+      "imageHint": "stir-fry wok"
+    }
+  ]
+}
