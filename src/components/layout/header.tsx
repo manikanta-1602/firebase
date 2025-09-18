@@ -15,12 +15,12 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 items-center">
+    <header className="sticky top-0 z-50 w-full border-b bg-gradient-to-r from-white via-gray-50 to-white shadow-sm backdrop-blur supports-[backdrop-filter]:bg-opacity-90">
+      <div className="container flex h-16 items-center">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <SnapRecipeLogo />
-            <span className="hidden font-bold sm:inline-block font-headline text-lg">
+            <span className="hidden font-bold sm:inline-block font-headline text-lg bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
               SnapRecipe
             </span>
           </Link>
@@ -30,10 +30,10 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  'transition-colors hover:text-foreground/80',
+                  'transition-colors hover:text-blue-600',
                   pathname === link.href
-                    ? 'text-foreground'
-                    : 'text-foreground/60'
+                    ? 'text-blue-600 font-semibold'
+                    : 'text-gray-600 hover:text-blue-500'
                 )}
               >
                 {link.label}
